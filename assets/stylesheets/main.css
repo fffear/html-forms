@@ -6,7 +6,7 @@
 }
 
 /* header */
-header {
+.page-header {
   background: aquamarine;
 }
 
@@ -17,4 +17,14 @@ nav {
 nav > div {
   float: left;
   border: 1px #000 solid;
+}
+
+/* form bottom section */
+form section div:nth-child(2) {
+  background: yellowgreen;
+}
+
+/* page footer */
+footer {
+  background: aquamarine;
 }
