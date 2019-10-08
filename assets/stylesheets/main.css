@@ -5,18 +5,66 @@
   clear: both;
 }
 
+body {
+  background-color: #eceef1;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(80, 80, 80);
+
+}
+
 /* header */
 .page-header {
-  background: aquamarine;
+  padding: 10px 0;
+  font-size: 12px;
 }
 
 nav {
   float: right;
+  height: 40px;
+  margin-right: 35px;
 }
 
 nav > div {
   float: left;
-  border: 1px #000 solid;
+  height: inherit;
+
+}
+
+.reset-account {
+  box-sizing: border-box;
+  padding: 5px 0;
+  height: inherit;
+}
+
+.reset-account div {
+  height: 16px;
+}
+
+.reset-account a {
+  color: blue;
+  text-decoration-line: none;
+}
+
+.sign-in {
+  height: inherit;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.sign-in a {
+  height: 38px;
+  display: block;
+  line-height: 38px;
+  padding: 0 20px;
+  color: white;
+  background-color: rgb(0, 119, 197);
+  border: 1px black solid;
+  border-radius: 4px;
+}
+
+.sign-in a:link {
+  background-color: rgb(0, 119, 197);
+  text-decoration-line: none;
 }
 
 /* form bottom section */
