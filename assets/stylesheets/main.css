@@ -111,7 +111,31 @@ header li {
   background-size: 23px;
 }
 
+/* main form */
+form {
+  border: 1px grey solid;
+}
+
+form header {
+  text-align: center;
+}
+
+form h2 {
+  font-size: 24px;
+}
+
+.further-account-information {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.further-account-information p:last-child {
+  font-size: 12px;
+  padding-top: 3px;
+}
+
 /* page footer */
+
 footer {
   background: aquamarine;
 }
